@@ -1,0 +1,96 @@
+{
+  "pages": [
+    "pages/shouye/index/index",
+    "pages/forum/forum",
+    "pages/forum/reply/reply",
+    "pages/forum/picture/picture",
+    "pages/forum/sell/sell",
+    "pages/forum/buy/buy",
+    "pages/forum/writing/writing",
+    "pages/send/send",
+    "pages/my/mylogin/mylogin",
+    "pages/login/login",
+    "pages/my/myzhuce/myzhuce",
+    "pages/my/my",
+    "pages/my/myptlogin/myptlogin",
+    "pages/shouye/hpsc/hpsc",
+    "pages/counter/counter",
+    "pages/cal/cal",
+    "pages/cal/calor/calor",
+    "pages/counter/mix/mix",
+    "pages/counter/next/next",
+    "pages/class/class",
+    "pages/class/music/music",
+    "pages/class/record/record",
+    "pages/class/classlist/classlist",
+    "pages/class/write/write",
+    "pages/card/sharecard/card",
+    "pages/my/mywjmm/mywjmm",
+    "pages/my/myxgmm/myxgmm",
+    "pages/my/mygywm/mygywm",
+    "pages/my/myliul/myliul",
+    "pages/my/myjl/myjl",
+    "pages/my/myjldz/mujldz",
+    "pages/my/mybj/mybj",
+    "pages/my/myxq/myxq",
+    "pages/shouye/ckpm/ckpm",
+    "pages/shouye/xjsd/xjsd",
+    "pages/shouye/nopmxq/nopmxq",
+    "pages/shouye/pmxj/pmxj",
+    "pages/shouye/hpscsearch/hpscsearch",
+    "pages/shouye/pmxq/pmxq",
+    "pages/shouye/apply/apply",
+    "pages/shouye/year/year",
+    "pages/shouye/details/details",
+    "pages/shouye/search/search",
+    "pages/shouye/keywors/keyword",
+    "pages/shouye/nokey/nokey",
+    "pages/logs/logs",
+    "pages/card/carddetail/carddetail",
+    "pages/card/card",
+    "pages/news/newsdetial/newsdetial",
+    "pages/news/news",
+    "pages/danger/danger",
+    "pages/shibor/shibor",
+    "pages/bank/bankdetail/detail",
+    "pages/bank/bank",
+    "pages/login/loginQuick/loginQuick",
+    "pages/shouye/shouye",
+    "custom-tab-bar/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#518CEE",
+    "navigationBarTitleText": "云票据_商票授信企业查询",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "custom": true,
+    "selectedColor": "#518cee",
+    "color": "#374966",
+    "list": [
+      {
+        "pagePath": "pages/shouye/index/index",
+        "text": "首页",
+        "iconPath": "/images/tabbar/ypj.png",
+        "selectedIconPath": "/images/tabbar/ypj_active.png"
+      },
+      {
+        "pagePath": "pages/send/send",
+        "text": "发布",
+        "iconPath": "/images/tabbar/send.png",
+        "selectedIconPath": "/images/tabbar/send_active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/images/tabbar/profile.png",
+        "selectedIconPath": "/images/tabbar/profile_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": [
+    "audio"
+  ]
+}
